@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #22282c;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #D7E4C0;
+  margin-top: 3rem;
+  text-shadow: 0px 0px 2px #fff6e9;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+  margin-top: 2rem;
+}
+
+.box-row {
+  gap: 1.5vmin;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  height: 6rem;
+  width: 6rem;
+  cursor: pointer;
+  background-color: #404c51;
+  color: #fff6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #404c51;
+  font-size: 2.3rem;
+  text-shadow: 0px 0px 4px #fff6e9;
+}
+.disable-div {
+  height: 6rem;
+  width: 6rem;
+  background-color: #404c51;
+  color: #fff6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #404c51;
+  font-size: 2.3rem;
+  text-shadow: 0px 0px 4px #fff6e9;
+  pointer-events: none;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 7px #8c8f91;
+}
+
+.reset-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  width: 7rem;
+  height: 2.5rem;
+  cursor: pointer;
+  margin: 50px;
+  color: #bfc7c7;
+  background-color: #585e60;
+  box-shadow: 0px 0px 15px #404c51;
+  border-radius: 10px;
+  padding-top: 15px;
+}
+.reset:hover {
+  box-shadow: 0px 0px 7px #8c8f91;
+}
+.winner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.play-again {
+  width: 7rem;
+  height: 2.5rem;
+  cursor: pointer;
+  color: #bfc7c7;
+  background-color: #585e60;
+  box-shadow: 0px 0px 15px #404c51;
+  border-radius: 10px;
+  padding-top: 15px;
+  margin-left: 30px;
+}
+.play-again:hover {
+  box-shadow: 0px 0px 7px #8c8f91;
+}
+
+.winner {
+  font-size: 2rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #dddfdf;
+}
+.winner-label {
+  font-weight: bold;
+}
